@@ -1,0 +1,18 @@
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.new-trailer-bg {
+  background: rgb(50, 174, 190);
+  background: linear-gradient(
+    144deg,
+    rgba(50, 174, 190, 1) 0%,
+    rgba(49, 24, 100, 1) 42%,
+    rgba(34, 18, 73, 1) 100%
+  );
+}
+
