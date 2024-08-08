@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "routes": [
     { "source": "/series", "destination": "/index.html" },
     { "source": "/animation", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
